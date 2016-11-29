@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6589AD91DE69AF20041EEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589AD81DE69AF20041EEB8 /* main.m */; };
+		B6589ADC1DE69AF30041EEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589ADB1DE69AF30041EEB8 /* AppDelegate.m */; };
+		B6589ADF1DE69AF30041EEB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589ADE1DE69AF30041EEB8 /* ViewController.m */; };
+		B6589AE21DE69AF30041EEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6589AE01DE69AF30041EEB8 /* Main.storyboard */; };
+		B6589AE41DE69AF30041EEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6589AE31DE69AF30041EEB8 /* Assets.xcassets */; };
+		B6589AE71DE69AF30041EEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6589AE51DE69AF30041EEB8 /* LaunchScreen.storyboard */; };
+		B6589AF21DE69AF30041EEB8 /* FeiJiFairTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589AF11DE69AF30041EEB8 /* FeiJiFairTests.m */; };
+		B6589AFD1DE69AF30041EEB8 /* FeiJiFairUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6589AFC1DE69AF30041EEB8 /* FeiJiFairUITests.m */; };
+		B6589B0D1DE6D6B80041EEB8 /* 飞机大战图片 in Resources */ = {isa = PBXBuildFile; fileRef = B6589B0C1DE6D6B80041EEB8 /* 飞机大战图片 */; };
+		B6589B0F1DE6D7000041EEB8 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6589B0E1DE6D7000041EEB8 /* 21.jpg */; };
+		B6589B111DE6D7030041EEB8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B101DE6D7030041EEB8 /* bg.png */; };
+		B6589B131DE6D7060041EEB8 /* bz1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B121DE6D7060041EEB8 /* bz1.png */; };
+		B6589B151DE6D70B0041EEB8 /* bz2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B141DE6D70B0041EEB8 /* bz2.png */; };
+		B6589B171DE6D70E0041EEB8 /* bz3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B161DE6D70E0041EEB8 /* bz3.png */; };
+		B6589B191DE6D7110041EEB8 /* bz4.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B181DE6D7110041EEB8 /* bz4.png */; };
+		B6589B1B1DE6D7140041EEB8 /* bz5.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B1A1DE6D7140041EEB8 /* bz5.png */; };
+		B6589B1D1DE6D7190041EEB8 /* diji.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B1C1DE6D7190041EEB8 /* diji.png */; };
+		B6589B1F1DE6D72E0041EEB8 /* plane1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B1E1DE6D72E0041EEB8 /* plane1.png */; };
+		B6589B211DE6D7330041EEB8 /* plane2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B201DE6D7330041EEB8 /* plane2.png */; };
+		B6589B231DE6D7360041EEB8 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B221DE6D7360041EEB8 /* start.png */; };
+		B6589B251DE6D73A0041EEB8 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B241DE6D73A0041EEB8 /* stop.png */; };
+		B6589B271DE6D73C0041EEB8 /* zidan1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B261DE6D73C0041EEB8 /* zidan1.png */; };
+		B6589B291DE6D73F0041EEB8 /* zidan2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6589B281DE6D73F0041EEB8 /* zidan2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6589AEE1DE69AF30041EEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6589ACC1DE69AF20041EEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6589AD31DE69AF20041EEB8;
+			remoteInfo = FeiJiFair;
+		};
+		B6589AF91DE69AF30041EEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6589ACC1DE69AF20041EEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6589AD31DE69AF20041EEB8;
+			remoteInfo = FeiJiFair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6589AD41DE69AF20041EEB8 /* FeiJiFair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiJiFair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6589AD81DE69AF20041EEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6589ADA1DE69AF20041EEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6589ADB1DE69AF30041EEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6589ADD1DE69AF30041EEB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6589ADE1DE69AF30041EEB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6589AE11DE69AF30041EEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6589AE31DE69AF30041EEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6589AE61DE69AF30041EEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6589AE81DE69AF30041EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6589AED1DE69AF30041EEB8 /* FeiJiFairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiJiFairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6589AF11DE69AF30041EEB8 /* FeiJiFairTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiJiFairTests.m; sourceTree = "<group>"; };
+		B6589AF31DE69AF30041EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6589AF81DE69AF30041EEB8 /* FeiJiFairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiJiFairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6589AFC1DE69AF30041EEB8 /* FeiJiFairUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiJiFairUITests.m; sourceTree = "<group>"; };
+		B6589AFE1DE69AF30041EEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6589B0C1DE6D6B80041EEB8 /* 飞机大战图片 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "飞机大战图片"; sourceTree = "<group>"; };
+		B6589B0E1DE6D7000041EEB8 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 21.jpg; path = "FeiJiFair/飞机大战图片/21.jpg"; sourceTree = "<group>"; };
+		B6589B101DE6D7030041EEB8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = "FeiJiFair/飞机大战图片/bg.png"; sourceTree = "<group>"; };
+		B6589B121DE6D7060041EEB8 /* bz1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bz1.png; path = "FeiJiFair/飞机大战图片/bz1.png"; sourceTree = "<group>"; };
+		B6589B141DE6D70B0041EEB8 /* bz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bz2.png; path = "FeiJiFair/飞机大战图片/bz2.png"; sourceTree = "<group>"; };
+		B6589B161DE6D70E0041EEB8 /* bz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bz3.png; path = "FeiJiFair/飞机大战图片/bz3.png"; sourceTree = "<group>"; };
+		B6589B181DE6D7110041EEB8 /* bz4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bz4.png; path = "FeiJiFair/飞机大战图片/bz4.png"; sourceTree = "<group>"; };
+		B6589B1A1DE6D7140041EEB8 /* bz5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bz5.png; path = "FeiJiFair/飞机大战图片/bz5.png"; sourceTree = "<group>"; };
+		B6589B1C1DE6D7190041EEB8 /* diji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diji.png; path = "FeiJiFair/飞机大战图片/diji.png"; sourceTree = "<group>"; };
+		B6589B1E1DE6D72E0041EEB8 /* plane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane1.png; path = "FeiJiFair/飞机大战图片/plane1.png"; sourceTree = "<group>"; };
+		B6589B201DE6D7330041EEB8 /* plane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plane2.png; path = "FeiJiFair/飞机大战图片/plane2.png"; sourceTree = "<group>"; };
+		B6589B221DE6D7360041EEB8 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = "FeiJiFair/飞机大战图片/start.png"; sourceTree = "<group>"; };
+		B6589B241DE6D73A0041EEB8 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = "FeiJiFair/飞机大战图片/stop.png"; sourceTree = "<group>"; };
+		B6589B261DE6D73C0041EEB8 /* zidan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zidan1.png; path = "FeiJiFair/飞机大战图片/zidan1.png"; sourceTree = "<group>"; };
+		B6589B281DE6D73F0041EEB8 /* zidan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zidan2.png; path = "FeiJiFair/飞机大战图片/zidan2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6589AD11DE69AF20041EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AEA1DE69AF30041EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AF51DE69AF30041EEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6589ACB1DE69AF20041EEB8 = {
+			isa = PBXGroup;
+			children = (
+				B6589B281DE6D73F0041EEB8 /* zidan2.png */,
+				B6589B261DE6D73C0041EEB8 /* zidan1.png */,
+				B6589B241DE6D73A0041EEB8 /* stop.png */,
+				B6589B221DE6D7360041EEB8 /* start.png */,
+				B6589B201DE6D7330041EEB8 /* plane2.png */,
+				B6589B1E1DE6D72E0041EEB8 /* plane1.png */,
+				B6589B1C1DE6D7190041EEB8 /* diji.png */,
+				B6589B1A1DE6D7140041EEB8 /* bz5.png */,
+				B6589B181DE6D7110041EEB8 /* bz4.png */,
+				B6589B161DE6D70E0041EEB8 /* bz3.png */,
+				B6589B141DE6D70B0041EEB8 /* bz2.png */,
+				B6589B121DE6D7060041EEB8 /* bz1.png */,
+				B6589B101DE6D7030041EEB8 /* bg.png */,
+				B6589B0E1DE6D7000041EEB8 /* 21.jpg */,
+				B6589AD61DE69AF20041EEB8 /* FeiJiFair */,
+				B6589AF01DE69AF30041EEB8 /* FeiJiFairTests */,
+				B6589AFB1DE69AF30041EEB8 /* FeiJiFairUITests */,
+				B6589AD51DE69AF20041EEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6589AD51DE69AF20041EEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6589AD41DE69AF20041EEB8 /* FeiJiFair.app */,
+				B6589AED1DE69AF30041EEB8 /* FeiJiFairTests.xctest */,
+				B6589AF81DE69AF30041EEB8 /* FeiJiFairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6589AD61DE69AF20041EEB8 /* FeiJiFair */ = {
+			isa = PBXGroup;
+			children = (
+				B6589ADA1DE69AF20041EEB8 /* AppDelegate.h */,
+				B6589ADB1DE69AF30041EEB8 /* AppDelegate.m */,
+				B6589ADD1DE69AF30041EEB8 /* ViewController.h */,
+				B6589ADE1DE69AF30041EEB8 /* ViewController.m */,
+				B6589AE01DE69AF30041EEB8 /* Main.storyboard */,
+				B6589AE31DE69AF30041EEB8 /* Assets.xcassets */,
+				B6589B0C1DE6D6B80041EEB8 /* 飞机大战图片 */,
+				B6589AE51DE69AF30041EEB8 /* LaunchScreen.storyboard */,
+				B6589AE81DE69AF30041EEB8 /* Info.plist */,
+				B6589AD71DE69AF20041EEB8 /* Supporting Files */,
+			);
+			path = FeiJiFair;
+			sourceTree = "<group>";
+		};
+		B6589AD71DE69AF20041EEB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6589AD81DE69AF20041EEB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6589AF01DE69AF30041EEB8 /* FeiJiFairTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6589AF11DE69AF30041EEB8 /* FeiJiFairTests.m */,
+				B6589AF31DE69AF30041EEB8 /* Info.plist */,
+			);
+			path = FeiJiFairTests;
+			sourceTree = "<group>";
+		};
+		B6589AFB1DE69AF30041EEB8 /* FeiJiFairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6589AFC1DE69AF30041EEB8 /* FeiJiFairUITests.m */,
+				B6589AFE1DE69AF30041EEB8 /* Info.plist */,
+			);
+			path = FeiJiFairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6589AD31DE69AF20041EEB8 /* FeiJiFair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6589B011DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFair" */;
+			buildPhases = (
+				B6589AD01DE69AF20041EEB8 /* Sources */,
+				B6589AD11DE69AF20041EEB8 /* Frameworks */,
+				B6589AD21DE69AF20041EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiJiFair;
+			productName = FeiJiFair;
+			productReference = B6589AD41DE69AF20041EEB8 /* FeiJiFair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6589AEC1DE69AF30041EEB8 /* FeiJiFairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6589B041DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFairTests" */;
+			buildPhases = (
+				B6589AE91DE69AF30041EEB8 /* Sources */,
+				B6589AEA1DE69AF30041EEB8 /* Frameworks */,
+				B6589AEB1DE69AF30041EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6589AEF1DE69AF30041EEB8 /* PBXTargetDependency */,
+			);
+			name = FeiJiFairTests;
+			productName = FeiJiFairTests;
+			productReference = B6589AED1DE69AF30041EEB8 /* FeiJiFairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6589AF71DE69AF30041EEB8 /* FeiJiFairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6589B071DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFairUITests" */;
+			buildPhases = (
+				B6589AF41DE69AF30041EEB8 /* Sources */,
+				B6589AF51DE69AF30041EEB8 /* Frameworks */,
+				B6589AF61DE69AF30041EEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6589AFA1DE69AF30041EEB8 /* PBXTargetDependency */,
+			);
+			name = FeiJiFairUITests;
+			productName = FeiJiFairUITests;
+			productReference = B6589AF81DE69AF30041EEB8 /* FeiJiFairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6589ACC1DE69AF20041EEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					B6589AD31DE69AF20041EEB8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XPA3Y8XDDE;
+						ProvisioningStyle = Automatic;
+					};
+					B6589AEC1DE69AF30041EEB8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C8QPW4Z45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6589AD31DE69AF20041EEB8;
+					};
+					B6589AF71DE69AF30041EEB8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C8QPW4Z45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6589AD31DE69AF20041EEB8;
+					};
+				};
+			};
+			buildConfigurationList = B6589ACF1DE69AF20041EEB8 /* Build configuration list for PBXProject "FeiJiFair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6589ACB1DE69AF20041EEB8;
+			productRefGroup = B6589AD51DE69AF20041EEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6589AD31DE69AF20041EEB8 /* FeiJiFair */,
+				B6589AEC1DE69AF30041EEB8 /* FeiJiFairTests */,
+				B6589AF71DE69AF30041EEB8 /* FeiJiFairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6589AD21DE69AF20041EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6589B111DE6D7030041EEB8 /* bg.png in Resources */,
+				B6589B0F1DE6D7000041EEB8 /* 21.jpg in Resources */,
+				B6589AE71DE69AF30041EEB8 /* LaunchScreen.storyboard in Resources */,
+				B6589B131DE6D7060041EEB8 /* bz1.png in Resources */,
+				B6589B171DE6D70E0041EEB8 /* bz3.png in Resources */,
+				B6589B1B1DE6D7140041EEB8 /* bz5.png in Resources */,
+				B6589B151DE6D70B0041EEB8 /* bz2.png in Resources */,
+				B6589AE41DE69AF30041EEB8 /* Assets.xcassets in Resources */,
+				B6589B1D1DE6D7190041EEB8 /* diji.png in Resources */,
+				B6589B191DE6D7110041EEB8 /* bz4.png in Resources */,
+				B6589B1F1DE6D72E0041EEB8 /* plane1.png in Resources */,
+				B6589B0D1DE6D6B80041EEB8 /* 飞机大战图片 in Resources */,
+				B6589B231DE6D7360041EEB8 /* start.png in Resources */,
+				B6589B271DE6D73C0041EEB8 /* zidan1.png in Resources */,
+				B6589B211DE6D7330041EEB8 /* plane2.png in Resources */,
+				B6589B291DE6D73F0041EEB8 /* zidan2.png in Resources */,
+				B6589B251DE6D73A0041EEB8 /* stop.png in Resources */,
+				B6589AE21DE69AF30041EEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AEB1DE69AF30041EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AF61DE69AF30041EEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6589AD01DE69AF20041EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6589ADF1DE69AF30041EEB8 /* ViewController.m in Sources */,
+				B6589ADC1DE69AF30041EEB8 /* AppDelegate.m in Sources */,
+				B6589AD91DE69AF20041EEB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AE91DE69AF30041EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6589AF21DE69AF30041EEB8 /* FeiJiFairTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6589AF41DE69AF30041EEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6589AFD1DE69AF30041EEB8 /* FeiJiFairUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6589AEF1DE69AF30041EEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6589AD31DE69AF20041EEB8 /* FeiJiFair */;
+			targetProxy = B6589AEE1DE69AF30041EEB8 /* PBXContainerItemProxy */;
+		};
+		B6589AFA1DE69AF30041EEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6589AD31DE69AF20041EEB8 /* FeiJiFair */;
+			targetProxy = B6589AF91DE69AF30041EEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6589AE01DE69AF30041EEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6589AE11DE69AF30041EEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6589AE51DE69AF30041EEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6589AE61DE69AF30041EEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6589AFF1DE69AF30041EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6589B001DE69AF30041EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6589B021DE69AF30041EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPA3Y8XDDE;
+				INFOPLIST_FILE = FeiJiFair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6589B031DE69AF30041EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XPA3Y8XDDE;
+				INFOPLIST_FILE = FeiJiFair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6589B051DE69AF30041EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8QPW4Z45W;
+				INFOPLIST_FILE = FeiJiFairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiJiFair.app/FeiJiFair";
+			};
+			name = Debug;
+		};
+		B6589B061DE69AF30041EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8QPW4Z45W;
+				INFOPLIST_FILE = FeiJiFairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiJiFair.app/FeiJiFair";
+			};
+			name = Release;
+		};
+		B6589B081DE69AF30041EEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C8QPW4Z45W;
+				INFOPLIST_FILE = FeiJiFairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeiJiFair;
+			};
+			name = Debug;
+		};
+		B6589B091DE69AF30041EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C8QPW4Z45W;
+				INFOPLIST_FILE = FeiJiFairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JSZTest.FeiJiFairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeiJiFair;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6589ACF1DE69AF20041EEB8 /* Build configuration list for PBXProject "FeiJiFair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6589AFF1DE69AF30041EEB8 /* Debug */,
+				B6589B001DE69AF30041EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6589B011DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6589B021DE69AF30041EEB8 /* Debug */,
+				B6589B031DE69AF30041EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6589B041DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6589B051DE69AF30041EEB8 /* Debug */,
+				B6589B061DE69AF30041EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6589B071DE69AF30041EEB8 /* Build configuration list for PBXNativeTarget "FeiJiFairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6589B081DE69AF30041EEB8 /* Debug */,
+				B6589B091DE69AF30041EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6589ACC1DE69AF20041EEB8 /* Project object */;
+}
